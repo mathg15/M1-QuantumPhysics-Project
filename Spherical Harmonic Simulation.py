@@ -74,7 +74,7 @@ def SimuSphHarm (ax, l, m, ri):
     cmap.set_clim(-0.35, 0.35)
     
     ax.plot_surface(HSx, HSy, HSz,
-                    facecolors=cmap.to_rgba(SH.real),
+                    facecolors=cmap.to_rgba(SH),
                     rstride=1, cstride=1)
     
 #On trace les axes x, y et z     
